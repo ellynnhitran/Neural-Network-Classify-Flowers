@@ -31,12 +31,10 @@ This script runs using Python 3.
 
 2. Copy this picture to ```tensorflow-for-poets-2``` folder.
 
-3. Run the command to help engine identify the new image you downloaded:
-```python scripts/label_image.py --image image.png```
+3. Run the command to help engine identify the new image you downloaded: ```python scripts/label_image.py --image image.png```
 
 4. If you encounter the error ```The name import / input refers to an Operation not in the Graph ```, open file ```label_image.py```
-from 
-
+and change the code from 
 ``` 
 input_height = 224
 input_width = 224
@@ -44,9 +42,7 @@ input_mean = 128
 input_std = 128
 input_layer = "input" 
 ```
-
 to
-
 ``` 
 input_height = 299
 input_width = 299
@@ -58,7 +54,8 @@ input_layer = "Mul"
 
 ## Result after testing a new dandelion image:
 
-<img src="https://drive.google.com/open?id=1so6UWLHid0U7nZkjmwQs3ad3XEC6mcXL">
+<img src="https://imgur.com/1UkqKjy">
+
 
 ## References:
 * https://towardsdatascience.com/training-inception-with-tensorflow-on-custom-images-using-cpu-8ecd91595f26
