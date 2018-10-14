@@ -1,5 +1,5 @@
 # Selfstudy-Neural-Network
-Transfer Learning: Train engine classifying flowers by neural networl. 
+Transfer Learning: Train engine classifying flowers by neural network. 
 
 ```
 Tran Tue Nhi
