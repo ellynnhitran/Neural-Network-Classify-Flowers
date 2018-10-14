@@ -53,8 +53,7 @@ input_layer = "Mul"
 ```
 
 ## Result after testing a new dandelion image:
-
-<img src="https://imgur.com/1UkqKjy">
+https://i.imgur.com/1UkqKjy.png
 
 
 ## References:
