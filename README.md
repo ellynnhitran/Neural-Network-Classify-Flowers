@@ -53,7 +53,8 @@ input_layer = "Mul"
 ```
 
 ## Result after testing a new dandelion image:
-https://i.imgur.com/1UkqKjy.png
+
+<img src="https://i.imgur.com/1UkqKjy.png">
 
 Accuracy: 99.874%
 
