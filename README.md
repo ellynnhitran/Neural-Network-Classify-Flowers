@@ -55,6 +55,7 @@ input_layer = "Mul"
 ## Result after testing a new dandelion image:
 https://i.imgur.com/1UkqKjy.png
 
+Accuracy: 99.874%
 
 ## References:
 * https://towardsdatascience.com/training-inception-with-tensorflow-on-custom-images-using-cpu-8ecd91595f26
